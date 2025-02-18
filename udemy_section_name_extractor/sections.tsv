@@ -1,38 +1,42 @@
-Section Title	Duration
-Section 1: Configurando o ambiente no Windows e Linux	1hr 7min
-Section 2: JavaScript Básico - Para iniciantes	7hr 39min
-Section 3: JavaScript - Lógica de programação	9hr 8min
-Section 4: JavaScript Funções (Avançado)	3hr 48min
-Section 5: JavaScript Arrays (Avançado)	1hr 59min
-Section 6: JavaScript Objetos e prototypes (Avançado)	3hr 56min
-Section 7: JavaScript Classes - Programação Orientada a Objetos - POO	1hr 59min
-Section 8: JavaScript assíncrono - Promises, Ajax, Fetch e Async/Await	2hr 10min
-Section 9: Javascript Tooling e ES6 Modules - Módulos	3hr 2min
-Section 10: JavaScript - Node, Npm, Express e MongoDB (NodeJS)	5hr 46min
-Section 11: JavaScript + Node - Projeto Agenda (com Express + MongoDB)	2hr 58min
-Section 12: Linux - Deploy da aplicação e segurança + Chaves SSH	1hr 52min
-Section 13: API REST - JavaScript, Node, Express e SQL (MySQL ou MariaDB)	6hr 26min
-Section 14: React com componentes de classe (Básico) - JavaScript	2hr 3min
-Section 15: React - Redux - Redux Saga - React Hooks e componentes funcionais - Avançado	9hr 30min
-Section 16: React Router Dom v6	51min
-Section 17: Expressões regulares em JavaScript - Regex (Bônus gratuito)	3hr 20min
-Section 18: TypeScript - Instalação	1hr 16min
-Section 19: TypeScript - Tipos básicos	4hr 6min
-Section 20: TypeScript - Classes e Interfaces - Programação Orientada a Objetos - POO	4hr 9min
-Section 21: TypeScript - Tipos avançados	1hr 1min
-Section 22: TypeScript - Generics (Generic Type)	1hr 58min
-Section 23: TypeScript - Decorators (Decoradores)	58min
-Section 24: TypeScript - Namespaces e modules (módulos)	47min
-Section 25: TypeScript - Princípios SOLID (S.O.L.I.D.)	2hr 55min
-Section 26: TypeScript - Testes com Jest	2hr 24min
-Section 27: Typescript e React (Pomodoro App)	1hr 51min
-Section 28: TypeScript - Design Patterns - Padrões de projeto - GOF	15hr 47min
-Section 29: NextJS (um framework baseado em React) e Strapi para criar API REST rapidamente	9hr 22min
-Section 30: Deploy NextJS + Strapi no Ubuntu Server 20.04	1hr 36min
-Section 31: Bases de dados Relacionais - SQL - MySQL ou MariaDB	5hr 29min
-Section 32: Knex.js - SQL Query Builder para Postgres, MySQL, MariaDB, SQLite3 e muito mais	3hr 9min
-Section 33: HTML5 e CSS3 (Para iniciantes)	12hr 22min
-Section 34: Landing Page com HTML5 e CSS3	4hr 1min
-Section 35: #EXTRA - Comandos Linux/Unix mais usados - Aprenda a navegar no terminal (BÔNUS)	1hr 32min
-Section 36: Notas finais	3min
-Section 37: ## MAIS BÔNUS GRATUITOS ##	3hr 44min
+Extracted Sections:
+
+ [ ] S.1: Introduction to GCP & its services - 37min
+
+ [ ] S.2: Introduction to BigQuery - 17min
+
+ [ ] S.3: Dataset & Table creation - 42min
+
+ [ ] S.4: Using BigQuery Dashboard options - 36min
+
+ [ ] S.5: Efficient Schema Design in BigQuery - 11min
+
+ [ ] S.6: Operations on Datasets & Tables - 30min
+
+ [ ] S.7: Execution Plan of BigQuery - 14min
+
+ [ ] S.8: Partitioned Tables in BigQuery - 43min
+
+ [ ] S.9: Clustered Tables in BigQuery - 16min
+
+ [ ] S.10: Loading & Querying External Data Sources - 14min
+
+ [ ] S.11: Views in Bigquery - 17min
+
+ [ ] S.12: Materialized Views in BigQuery - 32min
+
+ [ ] S.13: BQ Command Line - 41min
+
+ [ ] S.14: Python Client Library of BigQuery - 16min
+
+ [ ] S.15: Build End-to-End Data Pipelines (Apache Beam) - 1hr 10min
+
+ [ ] S.16: Build Streaming Data Pipelines - 22min
+
+ [ ] S.17: BigQuery Pricing - 24min
+
+ [ ] S.18: Best Practices / Optimization Techniques - 17min
+
+ [ ] S.19: Additional Learnings - Different File Formats & Apache Beam - 25min
+
+ [ ] S.20: Bonus - 4min
+

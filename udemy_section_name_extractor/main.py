@@ -66,7 +66,7 @@ class HTMLSectionExtractor:
         for heading in section_headings:
             # Extract the section title from the nested span with the specified class.
             title_span = heading.find("span", class_=TRUNCATE_CLASS)
-            title = title_span.get_text(strip=True) if title_span else "N/A"
+            title = title_span.get_text(strip=True).replace('Section ','\n[ ] S.') if title_span else "N/A"
             # Transform multiple spaces into a single one.
             title = self.transform_spaces(title)
             
@@ -110,6 +110,19 @@ class HTMLSectionExtractor:
             writer.writerow(["Section Title", "Duration"])
             for title, duration in self.sections:
                 writer.writerow([title, duration])
+    
+    def save_as_txt(self, output_file):
+        """
+        Saves the extracted sections as a text file.
+        
+        Args:
+            output_file (str): The file path for the output text file.
+        """
+        full_output_path = os.path.join("udemy_section_name_extractor", output_file)
+        with open(full_output_path, 'w', encoding=ENCODING) as file:
+            file.write("Extracted Sections:\n\n")
+            for index, (title, duration) in enumerate(self.sections, start=1):
+                file.write(f"{title} - {duration}\n\n")
 
 if __name__ == "__main__":
     # Define parameters at the beginning.
@@ -122,6 +135,6 @@ if __name__ == "__main__":
     # Execute the methods in sequence.
     extractor.open_html()         # Open and read the HTML file.
     extractor.extract_content()   # Parse and extract the desired data.
-    extractor.save_as_tsv(output_file)  # Save the results as a TSV file.
+    extractor.save_as_txt(output_file)  # Save the results as a TSV file.
     
     print(f"Extracted sections have been saved to '{output_file}'.")
